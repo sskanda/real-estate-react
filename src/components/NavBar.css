@@ -1,5 +1,35 @@
 #main-container {
-  height: 1rem;
-  width: 1rem;
-  background-color: yellow;
+  height: 7rem;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  font-size: 2.3rem;
+  color: white;
+  position: fixed;
+}
+
+#main-container button {
+  margin-right: 10rem;
+  padding: 2rem 3rem;
+  color: white;
+  background-color: rgb(4, 4, 37);
+  border-color: transparent;
+  font-size: 1.8rem;
+}
+
+#main-container span {
+  margin-left: 10rem;
+}
+
+.navbar {
+  display: flex;
+  gap: 3rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
 }

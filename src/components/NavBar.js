@@ -3,9 +3,17 @@ import "../components/NavBar.css";
 
 const NavBar = () => {
   return (
-    <div id="main-container">
-      <span>Navbar</span>
-    </div>
+    <header>
+      <div id="main-container">
+        <span>RIZE</span>
+        <nav class="navbar">
+          <a href="#">About</a>
+          <a href="#">Homes</a>
+          <a href="#">Rentals</a>
+        </nav>
+        <button>Contact Us</button>
+      </div>
+    </header>
   );
 };
 
