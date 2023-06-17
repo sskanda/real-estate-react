@@ -1,0 +1,30 @@
+#new-homes {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  margin: 10rem;
+}
+
+.new-homes-header {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.new-homes-content {
+  display: flex;
+  flex: 1;
+  gap: 8rem;
+}
+
+.new-homes-content > div {
+  flex: 1;
+}
+
+.left-card {
+  margin-top: 4rem;
+}
+
+.right-card {
+  margin-top: 12rem;
+}

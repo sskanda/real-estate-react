@@ -24,7 +24,7 @@ const Aboutpage = () => {
         </div>
       </div>
       <div className="about-image">
-        <img src={homeinterior}></img>
+        <img src={homeinterior} alt="interior"></img>
       </div>
     </section>
   );
