@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import "../components/NavBar.css";
 import CustomButton from "./CustomButton";
 
 const NavBar = () => {
+  const [bgcolor, setbgcolor] = useState({ backgroundColor: "transparent" });
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 400) setbgcolor({ backgroundColor: "orange" });
+    else setbgcolor({ backgroundColor: "transparent" });
+  });
+
   return (
     <header>
-      <div id="main-container">
+      <div id="main-container" style={bgcolor}>
         <span>RIZE</span>
         <nav className="navbar">
           <a href="#">About</a>

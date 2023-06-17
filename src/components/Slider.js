@@ -27,7 +27,11 @@ const Slider = (props) => {
   const section = pagedetails.map((x) => {
     if (x.id === props.page) {
       return (
-        <section key={x.id} style={{ backgroundImage: `url(${x.bg})` }}>
+        <section
+          key={x.id}
+          style={{ backgroundImage: `url(${x.bg})` }}
+          id="home"
+        >
           <div className="home-container">
             <span className="home-name">{x.title}</span>
             <span className="home-price">{x.price}</span>

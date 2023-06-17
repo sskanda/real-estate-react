@@ -1,0 +1,30 @@
+#about {
+  display: flex;
+  color: black;
+  min-height: 100vh;
+  margin: 10rem;
+}
+
+#about > div {
+  flex: 1;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.content-header {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.content-desc {
+  font-size: 2rem;
+}
+
+.content-button {
+  margin-top: 4rem;
+}

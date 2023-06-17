@@ -1,10 +1,11 @@
-section {
+#home {
   background-size: cover;
   height: 100%;
   width: 100%;
   color: white;
   display: flex;
   align-items: center;
+  min-height: 100vh;
 }
 
 section img {

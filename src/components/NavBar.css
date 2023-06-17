@@ -1,7 +1,6 @@
 #main-container {
   height: 7rem;
   width: 100%;
-  background-color: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,6 +8,7 @@
   font-size: 2.3rem;
   color: white;
   position: fixed;
+  z-index: 99;
 }
 
 #main-container span {
