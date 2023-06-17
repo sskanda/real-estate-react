@@ -6,7 +6,7 @@ const NavBar = () => {
     <header>
       <div id="main-container">
         <span>RIZE</span>
-        <nav class="navbar">
+        <nav className="navbar">
           <a href="#">About</a>
           <a href="#">Homes</a>
           <a href="#">Rentals</a>

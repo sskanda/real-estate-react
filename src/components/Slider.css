@@ -1,0 +1,36 @@
+section {
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+section img {
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8rem;
+}
+
+.home-name {
+  font-size: 4rem;
+  letter-spacing: 0.4rem;
+}
+
+.home-price {
+  font-size: 2rem;
+}
+
+.home-buttons {
+  position: fixed;
+  right: 15rem;
+  bottom: 2rem;
+  background: red;
+}
