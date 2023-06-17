@@ -7,7 +7,7 @@ const CustomButton = (props) => {
   return (
     <button>
       {props.text}
-      <FontAwesomeIcon icon={props.icon} className="iconx" />
+      {props.icon && <FontAwesomeIcon icon={props.icon} className="iconx" />}
     </button>
   );
 };

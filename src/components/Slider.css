@@ -29,7 +29,7 @@ section img {
 }
 
 .home-buttons {
-  position: fixed;
+  position: absolute;
   right: 15rem;
   bottom: 2rem;
   display: flex;
