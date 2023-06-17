@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import home1 from "../images/home-2.jpg";
 import home2 from "../images/home-4.jpg";
 import home3 from "../images/home-1.jpg";
@@ -30,8 +32,12 @@ const Slider = (props) => {
             <span className="home-price">{x.price}</span>
           </div>
           <div className="home-buttons">
-            <button onClick={props.funback}>Backward</button>
-            <button onClick={props.funfor}>Forward</button>
+            <button onClick={props.funback}>
+              <FontAwesomeIcon icon={faArrowLeft} className="icon" />
+            </button>
+            <button onClick={props.funfor}>
+              <FontAwesomeIcon icon={faArrowRight} className="icon" />
+            </button>
           </div>
         </section>
       );
