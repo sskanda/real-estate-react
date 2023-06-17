@@ -1,5 +1,6 @@
 import React from "react";
 import "../components/NavBar.css";
+import CustomButton from "./CustomButton";
 
 const NavBar = () => {
   return (
@@ -11,7 +12,9 @@ const NavBar = () => {
           <a href="#">Homes</a>
           <a href="#">Rentals</a>
         </nav>
-        <button>Contact Us</button>
+        <div className="main-button-container">
+          <CustomButton text="Contact Us"></CustomButton>
+        </div>
       </div>
     </header>
   );

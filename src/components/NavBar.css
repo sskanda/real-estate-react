@@ -11,15 +11,6 @@
   position: fixed;
 }
 
-#main-container button {
-  margin-right: 10rem;
-  padding: 2rem 3rem;
-  color: white;
-  background-color: rgb(4, 4, 37);
-  border-color: transparent;
-  font-size: 1.8rem;
-}
-
 #main-container span {
   margin-left: 10rem;
 }
@@ -32,4 +23,8 @@
 .navbar a {
   text-decoration: none;
   color: white;
+}
+
+.main-button-container {
+  margin-right: 10rem;
 }

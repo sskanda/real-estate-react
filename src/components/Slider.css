@@ -49,3 +49,7 @@ section img {
   cursor: pointer;
   background-color: orange;
 }
+
+.custom-button-container {
+  margin-top: 2rem;
+}
