@@ -98,3 +98,27 @@
 .top-2 img:hover {
   cursor: pointer;
 }
+
+.left-animation-hide {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: 1s;
+}
+.left-animation-show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.right-animation-hide {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(100%);
+  transition: 1s;
+}
+.right-animation-show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}

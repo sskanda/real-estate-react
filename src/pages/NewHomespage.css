@@ -28,3 +28,12 @@
 .right-card {
   margin-top: 12rem;
 }
+
+.hide {
+  opacity: 0;
+  transition: 2s;
+}
+
+.show {
+  opacity: 1;
+}

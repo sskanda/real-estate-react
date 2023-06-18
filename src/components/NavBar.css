@@ -9,6 +9,7 @@
   color: white;
   position: fixed;
   z-index: 99;
+  transition: 1s;
 }
 
 #main-container span {

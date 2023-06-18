@@ -1,11 +1,30 @@
-import React from "react";
+import React, { useRef, useEffect, useState } from "react";
 import "../pages/Aboutpage.css";
 import homeinterior from "../images/interior.jpg";
 import CustomButton from "../components/CustomButton";
 
 const Aboutpage = () => {
+  const [sectionvisible, setSectionvisible] = useState();
+
+  const myref = useRef();
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      const entry = entries[0];
+      console.log(entry.isIntersecting);
+      setSectionvisible(entry.isIntersecting);
+    });
+    observer.observe(myref.current);
+  }, []);
+
   return (
-    <section id="about">
+    <section
+      id="about"
+      className={
+        sectionvisible ? "animation-hide animation-show" : "animation-hide"
+      }
+      ref={myref}
+    >
       <div className="about-content">
         <div className="content-header">Explore Our beautiful Homes</div>
         <div className="content-desc">
