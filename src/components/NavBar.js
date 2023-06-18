@@ -14,9 +14,9 @@ const NavBar = () => {
       <div id="main-container" style={bgcolor}>
         <span>RIZE</span>
         <nav className="navbar">
-          <a href="#">About</a>
-          <a href="#">Homes</a>
-          <a href="#">Rentals</a>
+          <a href="#about">About</a>
+          <a href="#home">Homes</a>
+          <a href="#explore">Explore</a>
         </nav>
         <div className="main-button-container">
           <CustomButton text="Contact Us"></CustomButton>
