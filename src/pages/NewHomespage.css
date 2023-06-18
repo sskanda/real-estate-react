@@ -37,3 +37,10 @@
 .show {
   opacity: 1;
 }
+
+@media (max-width: 1000px) {
+  .new-homes-content {
+    display: flex;
+    flex-direction: column;
+  }
+}

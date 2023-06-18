@@ -122,3 +122,18 @@
   filter: blur(0);
   transform: translateX(0);
 }
+
+@media (max-width: 1000px) {
+  .top-half {
+    display: flex;
+    flex-direction: column;
+  }
+  .bottom-half {
+    display: flex;
+    flex-direction: column;
+  }
+  .extra {
+    position: relative;
+    bottom: 0rem;
+  }
+}

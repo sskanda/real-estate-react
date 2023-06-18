@@ -29,3 +29,9 @@
 .main-button-container {
   margin-right: 10rem;
 }
+
+@media (max-width: 1000px) {
+  #main-container span {
+    margin-left: 5rem;
+  }
+}

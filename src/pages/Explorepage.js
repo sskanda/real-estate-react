@@ -30,6 +30,7 @@ const Explorepage = () => {
                 ? "top-1 left-animation-hide left-animation-show"
                 : "top-1 left-animation-hide"
             }
+            ref={refx}
           >
             <div>
               <img src={explore1} alt="explore-Apartment"></img>
@@ -76,7 +77,6 @@ const Explorepage = () => {
                 ? "top-1 right-animation-hide right-animation-show"
                 : "top-1 right-animation-hide"
             }
-            ref={refx}
           >
             <div>
               <img src={explore6} alt="explore-Villa"></img>

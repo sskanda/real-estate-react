@@ -46,3 +46,10 @@
   filter: blur(0);
   transform: translateX(0);
 }
+
+@media (max-width: 1000px) {
+  #about {
+    display: flex;
+    flex-direction: column;
+  }
+}
