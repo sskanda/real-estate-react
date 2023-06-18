@@ -28,15 +28,15 @@ const Aboutpage = () => {
       <div className="about-content">
         <div className="content-header">Explore Our beautiful Homes</div>
         <div className="content-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.<br></br>
+          A luxurious vacation home. Contemporary and calming interiors to
+          unwind and relax as a family and enjoy their time together with a
+          fuss-free interior design.<br></br>
           <br></br>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          Your home is all about you. From the first call, we try to understand
+          you and your expectations from a living space. Our designers work with
+          you on finding the right balance between aesthetics and functionality,
+          while our project manager ensures that budget, time and quality goals
+          are met.
         </div>
         <div className="content-button">
           <CustomButton text="View Homes"></CustomButton>
