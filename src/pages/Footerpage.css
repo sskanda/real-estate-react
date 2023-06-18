@@ -1,0 +1,60 @@
+#footer {
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+}
+
+.footer-header {
+  height: 7rem;
+  background-color: white;
+}
+
+.footer-content {
+  display: flex;
+  flex: 1;
+  padding: 20rem 10rem 10rem 10rem;
+  background-color: rgb(4, 4, 37);
+  height: 100%;
+  color: white;
+}
+
+.footer-content > div {
+  flex: 1;
+}
+
+.footer-text-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-text-left span {
+  font-size: 9rem;
+  font-weight: 800;
+}
+
+.footer-links {
+  margin-top: 15rem;
+  display: flex;
+  gap: 3rem;
+  font-size: 3rem;
+  color: orange;
+}
+
+.footer-text-right {
+  display: flex;
+}
+.footer-text-right > div {
+  width: 25rem;
+}
+
+.footer-contact-us {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 2rem;
+}
+
+.bold {
+  font-weight: 800;
+}

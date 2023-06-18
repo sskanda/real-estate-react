@@ -90,3 +90,11 @@
   font-size: 3rem;
   color: white;
 }
+
+.top-1 div:hover {
+  cursor: pointer;
+}
+
+.top-2 img:hover {
+  cursor: pointer;
+}

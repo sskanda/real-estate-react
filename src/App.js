@@ -4,6 +4,7 @@ import Homepage from "./pages/Homepage";
 import Aboutpage from "./pages/Aboutpage";
 import NewHomespage from "./pages/NewHomespage";
 import Explorepage from "./pages/Explorepage";
+import Footerpage from "./pages/Footerpage";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Aboutpage></Aboutpage>
       <NewHomespage></NewHomespage>
       <Explorepage></Explorepage>
+      <Footerpage></Footerpage>
     </>
   );
 }
