@@ -23,6 +23,7 @@ const Aboutpage = () => {
       className={
         sectionvisible ? "animation-hide animation-show" : "animation-hide"
       }
+      ref={myref}
     >
       <div className="about-content">
         <div className="content-header">Explore Our beautiful Homes</div>
@@ -37,7 +38,7 @@ const Aboutpage = () => {
           while our project manager ensures that budget, time and quality goals
           are met.
         </div>
-        <div className="content-button" ref={myref}>
+        <div className="content-button">
           <CustomButton text="View Homes"></CustomButton>
         </div>
       </div>
