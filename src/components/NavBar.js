@@ -19,7 +19,9 @@ const NavBar = () => {
           <a href="#explore">Explore</a>
         </nav>
         <div className="main-button-container">
-          <CustomButton text="Contact Us"></CustomButton>
+          <a href="#footer">
+            <CustomButton text="Contact Us"></CustomButton>
+          </a>
         </div>
       </div>
     </header>
